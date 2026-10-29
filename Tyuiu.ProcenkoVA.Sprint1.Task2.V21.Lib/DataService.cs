@@ -11,7 +11,7 @@ namespace Tyuiu.ProcenkoVA.Sprint1.Task2.V21.Lib
 
         public int CalculateRectangleSquare(int value, int valueTwo)
         {
-            
+            return value * valueTwo;
         }
     }
 }
