@@ -8,7 +8,10 @@ namespace Tyuiu.ProcenkoVA.Sprint1.Task2.V21.Lib
          {
             return (int)(value * valueTwo); 
          }
+
+        public int CalculateRectangleSquare(int value, int valueTwo)
+        {
             
-        
+        }
     }
 }
