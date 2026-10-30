@@ -1,29 +1,15 @@
-﻿namespace Tyuiu.ProcenkoVA.Sprint1.Task0.V1.Test
+﻿using System;
+using Tyuiu.ProcenkoVA.Sprint1.Task0.V1.Lib;
+
+namespace Tyuiu.ProcenkoVA.Sprint1.Task0.V1.Test
 {
-    [TestClass]
     public class DataServiceTest
     {
-        private object? Assert;
-
-        [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
-            DataServiceTest ds = new DataServiceTest();
+            DataService ds = new DataService();
+            double wait = -6.0;
             var res = ds.Calculate();
-            object value = Assert.AreEqual(2, res);
         }
-
-        private int Calculate()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    internal class TestClassAttribute : Attribute
-    {
-    }
-
-    internal class TestMethodAttribute : Attribute
-    {
     }
 }
