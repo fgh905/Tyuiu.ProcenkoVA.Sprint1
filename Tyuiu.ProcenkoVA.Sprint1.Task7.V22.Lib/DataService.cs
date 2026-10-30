@@ -10,7 +10,7 @@ namespace Tyuiu.ProcenkoVA.Sprint1.Task7.V22.Lib
             double exponent = 1.0 / Math.Tan(x);
 
             double res = Math.Pow(baseValue, exponent) + Math.Cos(x - y);
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }

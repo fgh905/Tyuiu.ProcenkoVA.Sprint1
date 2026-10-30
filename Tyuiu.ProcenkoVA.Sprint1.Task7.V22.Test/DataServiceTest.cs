@@ -14,7 +14,7 @@ namespace Tyuiu.ProcenkoVA.Sprint1.Task7.V22.Test
             double wait = 1.235;
 
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(wait, res, 0.001);
+            Assert.AreEqual(wait, res);
         }
     }
 }
